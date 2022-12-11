@@ -30,5 +30,14 @@ func main() {
 	}
 
 	fmt.Printf("value Memory usage: %d Bytes\n", size)
+	// output:
+	// 	 value Memory usage: 31 Bytes
+
+	// decompose:
+	// 	 string occupies 16 bytes
+	// 	 int occupies 8 bytes
+	// 	 bool occupies 1 bytes
+	// 	 "jwping" occupies 6 bytes
+	// 	 31 bytes in total
 }
 ```
